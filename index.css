@@ -1,0 +1,46 @@
+
+link[rel="icon"] {
+    border-radius: 50%;
+    }
+ .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #333;
+        padding: 15px 20px;
+    }
+
+    /* Text Logo Styling */
+    .logo {
+        font-size: 28px;
+        font-weight: bold;
+        color: #ffcc00; /* Choose your brand color */
+        font-family: "Arial", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    /* Navigation menu */
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    .nav-links li {
+        display: inline;
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .nav-links a:hover {
+        text-decoration: underline;
+    }
+
+
+
+    

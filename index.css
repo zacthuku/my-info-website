@@ -14,13 +14,13 @@ link[rel="icon"] {
     .logo {
         font-size: 28px;
         font-weight: bold;
-        color: #ffcc00; /* Choose your brand color */
+        color: #ffcc00; 
         font-family: "Arial", sans-serif;
         text-transform: uppercase;
         letter-spacing: 2px;
     }
 
-    /* Navigation menu */
+    
     .nav-links {
         list-style: none;
         display: flex;
@@ -40,7 +40,76 @@ link[rel="icon"] {
     .nav-links a:hover {
         text-decoration: underline;
     }
+    .nav-links a {
+        text-decoration: none;
+        color: rgb(249, 246, 246); 
+        padding: 10px;
+        transition: color 0.3s;
+    }
 
+    .nav-links a.active {
+        color: red; /
+    }
 
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top:4rem;
+       
+    }
+    .container .mypic{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 15px solid #444;
+        box-shadow: 5px 7px 25px rgba(0,0,0,0.5);
+        
+    }
 
-    
+        .mytext{
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+        .btn-resume  {border-color: #d5d5d5;
+            color:#fff;
+            background-color: #333;
+            padding: 12px 25px;
+            margin: 5px 0px;
+            margin-right:7px;
+            border-radius: 30px;
+            border:2px solid #e5e5e5;
+            box-shadow:  0 10px 10px -8px rgb(0 0 0 / 78%);
+            text-decoration: none;
+        }
+        .btn-email{border-color: #d5d5d5;
+            color:#fff;
+            background-color: #333;
+            padding: 12px 25px;
+            margin: 5px 0px;
+            margin-right:7px;
+            border-radius: 30px;
+            border:2px solid #e5e5e5;
+            box-shadow:  0 10px 10px -8px rgb(0 0 0 / 78%);
+            text-decoration: none;
+        }
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top:4rem;
+
+        }
+        .footer .social{
+            color: #e5e5e5;
+            font-size: 18px;
+            margin-right: 10px;
+            transition: 0.5s;
+        }
+       
+       
+
+       
+        
